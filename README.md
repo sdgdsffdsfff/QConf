@@ -2,7 +2,7 @@ QConf
 =====
 
 ## Introduction [中文](https://github.com/Qihoo360/QConf/blob/master/README_ZH.md)
-QConf is a Distrubuted Configuration Management System!
+QConf is a Distributed Configuration Management System!
 A better replacement of the traditional configuration file. As designed, configuration items which is constantly accessed and modified should be completely separated with application code, and QConf is where it should be.
 
 ## Features
@@ -10,7 +10,7 @@ A better replacement of the traditional configuration file. As designed, configu
 * High query efficiency.
 * Convenient deployment and simple interface.
 * High robustness and  fault-tolerance.
-* support c/c++, shell, php, python, lua, java, go and etc.
+* support c/c++, shell, php, python, lua, java, go, node and etc.
 
 ## Install
 The QConf is built using CMake (version 2.6 or newer).
@@ -56,6 +56,10 @@ echo test > QCONF_INSTALL_PREFIX/conf/localidc #assign local idc to 'test'
 cd QCONF_INSTALL_PREFIX/bin && sh agent-cmd.sh start
 ```
  - **Code** to access QConf
+
+
+## Related
+* [zkdash](https://github.com/ireaderlab/zkdash) - An excellent dashboard for QConf or ZooKeeper provided by IReader Team
 
 
 ## Performance
